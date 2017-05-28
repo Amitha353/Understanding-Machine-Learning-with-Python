@@ -263,3 +263,37 @@ d. Logistic Regression Cross Validation
 - Slightly below 70% target
 - Better performance on real data;
 
+-----------------------------------------------------------------------------------------------------------------------
+Key Points
+-------------
+-> Machine Learning is Data driven;
+-> Follow the Machine Learning WorkFlow;
+
+* Machine Learning Workflow
+----------------------------
+i. Asking the right question
+- Started with question;
+- Used requiredments and knowledge to transform;
+- Resulted in solution statement;
+
+ii. Preparing the data
+- Retrieved diabetes data;
+- Cleaned data;
+- Molded data;
+
+iii. Selecting the algorithm
+- Learning type
+- Result type
+- Complexity
+-Basic vs Enhanced
+
+iv. Training the model
+- Split data - 70% / 30%;
+- Trained with training data;
+
+v. Testing the model
+- Evaluated prediction;
+- Selected Logistic Regression
+- Achieved success
+- Used Cross Validation version for better general performance;
+-------------------------------------------------------------------------------------------------------------------------------
