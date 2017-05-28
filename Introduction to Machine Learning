@@ -30,6 +30,8 @@ An orchestrated and repeatable pattern which systematically transforms and proce
 4. Training the model;
 5. Testing the model;
 
+------------------------------------------------------------------------------------------------------------------------
+
 1. Asking the Right Question
 -----------------------------
 a. Define scope (including data sources);
@@ -45,7 +47,9 @@ d. Define how solution is created;
  - Use the Machine Learning Workflow to process and transform Pima Indian data to create a predictin model. This model 
  must predict whih people are likely to develop diabetes with 70% or greater accuracy.
  
- 2. Preparing data
+---------------------------------------------------------------------------------------------------------------------------
+
+2. Preparing data
  ---------------------
  a. Tidy Data
  - Tidy datasets are easy to manipulate, model and visualize,and have a specific structure:
@@ -64,6 +68,9 @@ Data Rule #2:
 * Columns to eliminate - Not used, no values, duplicates;
 * Correlated columns - Same information in different format, add little value, and cause algorithm to get confused;
 * Modling Data - Adjusting data types, creating columns, if required;
+* Dealing with missing data - 
+  - Ignore it - Algorithms may fail;
+  - Impute it - update to "reasonable" values - Most frequent, Mean, Median, Expert reasonable value;
 
 Data Rule #3:
 ----------------
@@ -73,7 +80,83 @@ Data Rule #4:
 --------------
 Track how to manipulate data;
 
-3. 
+-------------------------------------------------------------------------------------------------------------------------
+
+3.  Selecting the algorithm:
+------------------------------
+Role of the Algorithm
+ - fit the training set and predict on the read data;
+ - (fit()) training data -> Algorithm -> model;
+ - (predict()) real data -> Model -> result;
+ 
+ Over 50 algorithms
+ - algorithm selection 
+ *. Compare factors;
+ *. Difference of opinions about which factors are important;
+ *. Develop your own factors;
+ 
+Algorithm Decision Factors
+--------------------------
+i. Learning Type
+ii. Result
+iii. Complexity
+iv. Basic vs Enhanced
+
+i. Learning Type:
+"Use the Machine Learning Workflow to process and transform Pima Indian data to create a "prediction model". This model must 
+predict which people are likely to develop diabetes with 70% or greater accuracy."
+
+-> Prediction Model => Supervised machine learning;
+Over 28 algorithms
+
+ii. Result
+a. Regression - constinuous vales;
+b. Classification - discrete values;
+
+"Use the Machine Learning Workflow to process and transform Pima Indian data to create a prediction model. This model must 
+"predict which people are likely to develop diabetes" with 70% or greater accuracy."
+
+- Diabetes
+- Binary (True/False)
+- Algorithm must support classification - Binary classification;
+** Over 20 algorithms;
+
+iii. Complexity
+- Keep it simple;
+- Eliminate ensemble algorithms - Container algorithm; Multiple child algorithm, boost performance, Can be difficult to debug;
+** Over 14 algorithm;
+
+iv. Enhanced vs. Basic 
+- Enhanced - variation of basic, performance improvements, additional functionality, more complex;
+- Basic - simpler, easier to understand;
+
+Candidate Algorithms
+--------------------
+a. Naive Bayes;
+b. Logistics Regression;
+c. Decision Tree;
+
+a. Naive Bayes - Based on likelihood and probability; every feature has same weight; requires smaller amount of data;
+b. Logistic Regression - Binary result, relation between features are weighted;
+c. Decision Tree - Binary tree, node contains decision, requires enough data to determine nodes and splits;
+
+Selected algorithm - Naive Bayes
+-------------------------------
+Simple - easy to understand;
+Fast - up to 100X faster;
+Stable to data changes;
+
+Overview
+----------
+Lots of algorithms available
+
+Selected based on
+- Learning = Supervised
+- Result = Binary classification
+- Non-ensemble 
+- Basic
+
+
 
 
  
