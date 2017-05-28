@@ -177,4 +177,16 @@ v. Body Mass Index;
 vi. Diabetes Predisposition;
 vii. Age;
 
-Scikit-
+Steps:
+a. Split the data into training and test data sets;
+b. Perform post split data preparation;
+c. Train with initial algorithm;
+
+Missing data
+-------------
+ - Ignore
+ - Drop observations (rows)
+ - Replace values (Impute)
+
+Using mean imputing;
+-------------------------------------------------------------------------------------------------------------------------------
