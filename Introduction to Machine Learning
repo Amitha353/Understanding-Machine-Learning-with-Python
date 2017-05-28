@@ -227,3 +227,24 @@ More of one class than the others.
 - Our Data - 65% No Diabetes, 35% Diabetes;
 - Can be causing biases estimation yielding poor prediction results;
  
+Fixing Unbalanced Classes
+--------------------------
+- Using the hyperparameter, to shift the predicted class boundary;
+
+Division of the Data for better testing
+---------------
+- Training - Test split;
+- How we can evaluate training without using Testing Data?
+- the data must be split into -> Training - Validation - Testing;
+
+- In case we don't have enough data, the training data is split in folds;
+- Each fold of the training data is used for validation until all folds are examined and validated;
+- For each fold, determine best hyperparameter value;
+- Set model hyperparameter value to average best;
+
+Algorithm CV Variants
+----------------------
+Algorithm + Cross Validation; Runs the algorithm K times;
+
+
+
