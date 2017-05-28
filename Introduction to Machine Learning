@@ -246,5 +246,20 @@ Algorithm CV Variants
 ----------------------
 Algorithm + Cross Validation; Runs the algorithm K times;
 
+Overview
+----------
+a. Evaluated Naive Bayes model
+ - predict()
+ - confusionMatrix()
+ 
+b. Tried using Random Forest Algorithm
+ - Overfit
 
+c. Improved performance with Logistics Regression
+ - Regularization;
+ - Achieved performance goal;
+ 
+d. Logistic Regression Cross Validation
+- Slightly below 70% target
+- Better performance on real data;
 
