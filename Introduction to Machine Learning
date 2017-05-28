@@ -156,7 +156,25 @@ Selected based on
 - Non-ensemble 
 - Basic
 
+----------------------------------------------------------------------------------------------------------------------------------
+4. Training the Model
+---------------------
+* Machine Learning Training : Letting specific data teach a Machine Learning algorithm to create a specific prediction model;
+* Training Overview
+i. Prepared data - split - 70% Training data; 30% test data;
+ii. Training data - algorithm (train model) - model;
+iii. Test data - model - forecast output;
 
+* Selecting Training Features
+------------------------------
+Want minimum features (columns)
+* Selected features
+i. Glucose onc;
+ii. Blood pressure
+iii. skin thickness;
+iv. insulin level;
+v. Body Mass Index;
+vi. Diabetes Predisposition;
+vii. Age;
 
-
- 
+Scikit-
