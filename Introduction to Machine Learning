@@ -220,3 +220,10 @@ Fixing Overfitting
  - Cross validation;
  - Bias - variance trade-off;
  - Sacrifice some perfection for better overall performance;
+ 
+Unbalanced Classes
+--------------------
+More of one class than the others.
+- Our Data - 65% No Diabetes, 35% Diabetes;
+- Can be causing biases estimation yielding poor prediction results;
+ 
