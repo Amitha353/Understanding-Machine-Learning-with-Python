@@ -190,3 +190,33 @@ Missing data
 
 Using mean imputing;
 -------------------------------------------------------------------------------------------------------------------------------
+5. Tesing the Model's Accuracy
+-------------------------------
+* Statistics are only data. We define what is good or bad;
+* Performance Improvement Options
+-------------------------------
+a. Adjust current algorithm;
+b. Get more data or improve data;
+c. Improve training;
+d. Switch algorithms;
+
+* Random Forest
+----------------
+-> Ensemble Algorithm;
+-> Fits multiple trees with subsets of data;
+-> Average tree results to improve performance and control overfitting;
+
+- Train with training data: y = x1 + w2 * (x2)^3 + w3 * (x3)^8
+- complex decision boundary;
+- good fit of training data;
+- poor fit of test data;
+- Overfitting;
+
+Fixing Overfitting
+------------------
+* Regularization hyperparameter
+ y = x1 + w2 * (x2)^3 + w3 * (x3)^8 - f(W)/(lambda)
+ 𝑦=𝑥1+𝑤2 * 𝑥2^3+𝑤3 * 𝑥3^8−𝑓(𝑊)/𝝀
+ - Cross validation;
+ - Bias - variance trade-off;
+ - Sacrifice some perfection for better overall performance;
