@@ -44,7 +44,7 @@ c. Define context for usage;
  - Using Pima Indian Diabetes data, predict with 70% or greater accuracy which people are likely to develop diabetes.
  
 d. Define how solution is created;
- - Use the Machine Learning Workflow to process and transform Pima Indian data to create a predictin model. This model 
+ - Use the Machine Learning Workflow to process and transform Pima Indian data to create a prediction model. This model 
  must predict whih people are likely to develop diabetes with 70% or greater accuracy.
  
 ---------------------------------------------------------------------------------------------------------------------------
